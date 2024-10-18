@@ -13,7 +13,7 @@ public class PlayerScript : MonoBehaviour
     private SpriteRenderer sr;
 
     [SerializeField] int speed = 0;
-    [SerializeField] int jumpHeight = 3;
+    [SerializeField] int jumpHeight = 10;
     [SerializeField] int dashSpeed = 100;
     [SerializeField] Animator animator;
     // Start is called before the first frame update
